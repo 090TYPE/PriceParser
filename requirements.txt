@@ -1,0 +1,14 @@
+requests>=2.31
+beautifulsoup4>=4.12
+python-dotenv>=1.0
+APScheduler>=3.10
+# Картинки товара в графическом экране (превью)
+Pillow>=10.0
+# Telegram (optional but recommended)
+python-telegram-bot>=21.0
+# Ozon / Яндекс.Маркет / JS-sites (install when needed)
+selenium>=4.20
+undetected-chromedriver>=3.5
+# undetected-chromedriver импортирует distutils, удалённый из Python 3.12+ —
+# setuptools возвращает его (нужен на 3.12+).
+setuptools<81; python_version >= "3.12"
