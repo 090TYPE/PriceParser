@@ -1,5 +1,8 @@
 # PriceParser 🟡
 
+[![CI](https://github.com/090TYPE/PriceParser/actions/workflows/ci.yml/badge.svg)](https://github.com/090TYPE/PriceParser/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Трекер цен на **Wildberries**, **Ozon** и **Яндекс.Маркете** с уведомлениями в Telegram при снижении цены.
 
 > Учебный проект: веб-скрапинг, парсинг JS-сайтов, Selenium, работа с внутренними API маркетплейсов.
